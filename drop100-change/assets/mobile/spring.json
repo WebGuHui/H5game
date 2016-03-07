@@ -1,0 +1,39 @@
+{"frames": [
+
+{
+	"filename": "spring1.png",
+	"frame": {"x":2,"y":2,"w":199,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":199,"h":40},
+	"sourceSize": {"w":199,"h":40},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "spring2.png",
+	"frame": {"x":203,"y":2,"w":199,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":199,"h":30},
+	"sourceSize": {"w":199,"h":30},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "spring3.png",
+	"frame": {"x":203,"y":34,"w":199,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":199,"h":23},
+	"sourceSize": {"w":199,"h":23},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "spring.png",
+	"format": "RGBA8888",
+	"size": {"w":404,"h":59},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ddf47e4487d737cbc5f5f588921781d9:baefde99550c7370bdee1282693e330b:13ea7af503572db800483f0ae7d1c5c8$"
+}
+}
