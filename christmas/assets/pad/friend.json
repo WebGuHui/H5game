@@ -1,0 +1,30 @@
+{"frames": [
+
+{
+	"filename": "friend1.png",
+	"frame": {"x":2,"y":2,"w":223,"h":370},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":223,"h":370},
+	"sourceSize": {"w":226,"h":370},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "friend2.png",
+	"frame": {"x":227,"y":2,"w":223,"h":364},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":223,"h":364},
+	"sourceSize": {"w":223,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "friend.png",
+	"format": "RGBA8888",
+	"size": {"w":452,"h":374},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a9a119ea8615bed0e9e3af5a23dfbd69:b47c04203a13f71dc58a823892908356:7b0b3a493dd398b8f9ca85b365e9bc46$"
+}
+}

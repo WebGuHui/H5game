@@ -1,0 +1,39 @@
+{"frames": [
+
+{
+	"filename": "1.png",
+	"frame": {"x":2,"y":2,"w":22,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":53},
+	"sourceSize": {"w":22,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "2.png",
+	"frame": {"x":26,"y":2,"w":33,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":53},
+	"sourceSize": {"w":33,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "3.png",
+	"frame": {"x":61,"y":2,"w":32,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":53},
+	"sourceSize": {"w":32,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "countDown.png",
+	"format": "RGBA8888",
+	"size": {"w":95,"h":57},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:35de41f2d5dcd12ed2148490e6dc6b99:50cde6c36373b06b8686e40308018b26:6e973a62a1832971a47d0f696a67a6df$"
+}
+}

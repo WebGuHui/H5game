@@ -1,0 +1,39 @@
+{"frames": [
+
+{
+	"filename": "礼物 紫色.png",
+	"frame": {"x":2,"y":2,"w":81,"h":79},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":79},
+	"sourceSize": {"w":82,"h":80},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "礼物 红色.png",
+	"frame": {"x":83,"y":2,"w":81,"h":79},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":79},
+	"sourceSize": {"w":82,"h":80},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "礼物 蓝色.png",
+	"frame": {"x":164,"y":2,"w":81,"h":79},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":79},
+	"sourceSize": {"w":82,"h":80},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "gift.png",
+	"format": "RGBA8888",
+	"size": {"w":245,"h":85},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d976f6a7cd98c43d439f54f9c03fe652:35ba8e4ac5a094a608ac8a2cc4d6386a:da608f8bfab43ed0359bba38af88f8fb$"
+}
+}

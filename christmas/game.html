@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0">
+	<title>1</title>
+	<script src="http://24haowan-cdn.shanyougame.com/public/js/zepto.js"></script>
+	<script src="http://24haowan-cdn.shanyougame.com/public/js/phaser.min.js"></script> 
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="start_menu">
+		<div class="start_btn"></div>
+		<div class="rank_btn"></div>
+	</div>
+	<div class="mask"></div>
+	<div id="game_div"></div>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#start_menu .start_btn').on('click',function(){
+				game.state.start('play');
+				console.log('1');
+				$('#start_menu').hide();
+				// hiddenLabel();
+			});
+			$('#start_menu .rank_btn').on('click',function(){
+				showRankBox();
+			});
+
+			$("#over_box .over-btn-replay").on("click", function() {
+				game.state.start("play");
+				$('#over_box').hide();
+				$('#over_box .over-btn-container').hide();
+			});
+			$("#over_box .over-btn-more").on("click", function() {
+				location.href = "http://24haowan.shanyougame.com/main/subject";
+			});
+			$("#over_box .over-btn-rank").on("click", function() {
+				showRankBox();
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{"frames": [
+
+{
+	"filename": "p_01.png",
+	"frame": {"x":100,"y":2,"w":96,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":96},
+	"sourceSize": {"w":96,"h":96}
+},
+{
+	"filename": "p_02.png",
+	"frame": {"x":2,"y":2,"w":96,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":96},
+	"sourceSize": {"w":96,"h":96}
+},
+{
+	"filename": "p_03.png",
+	"frame": {"x":680,"y":2,"w":92,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":4,"w":92,"h":90},
+	"sourceSize": {"w":96,"h":96}
+},
+{
+	"filename": "p_04.png",
+	"frame": {"x":586,"y":2,"w":92,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":4,"w":92,"h":90},
+	"sourceSize": {"w":96,"h":96}
+},
+{
+	"filename": "p_05.png",
+	"frame": {"x":294,"y":2,"w":94,"h":96},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":96},
+	"sourceSize": {"w":96,"h":96}
+},
+{
+	"filename": "p_06.png",
+	"frame": {"x":198,"y":2,"w":94,"h":96},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":96},
+	"sourceSize": {"w":96,"h":96}
+},
+{
+	"filename": "p_07.png",
+	"frame": {"x":488,"y":2,"w":96,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":94},
+	"sourceSize": {"w":96,"h":96}
+},
+{
+	"filename": "p_08.png",
+	"frame": {"x":390,"y":2,"w":96,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":94},
+	"sourceSize": {"w":96,"h":96}
+},
+{
+	"filename": "p_09.png",
+	"frame": {"x":774,"y":2,"w":90,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":90,"h":90},
+	"sourceSize": {"w":96,"h":96}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "pixels.png",
+	"format": "RGBA8888",
+	"size": {"w":866,"h":100},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0932d126ac9f278d05787b1c13cc0970:1/1$"
+}
+}

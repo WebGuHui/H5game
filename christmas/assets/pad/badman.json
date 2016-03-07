@@ -1,0 +1,30 @@
+{"frames": [
+
+{
+	"filename": "badman1.png",
+	"frame": {"x":2,"y":2,"w":174,"h":350},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":174,"h":350},
+	"sourceSize": {"w":179,"h":359},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "badman2.png",
+	"frame": {"x":178,"y":2,"w":168,"h":350},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":168,"h":350},
+	"sourceSize": {"w":168,"h":364},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "badman.png",
+	"format": "RGBA8888",
+	"size": {"w":348,"h":354},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:179f8d8ed75353e2532cdc19d544bae3:18f13af8b6cc8b6b9c6fe16942e374b0:24eccefc0e3584df81dafd3ff7ffb33f$"
+}
+}

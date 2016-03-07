@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0">
+	<title>1</title>
+	<script src="http://24haowan-cdn.shanyougame.com/public/js/zepto.js"></script>
+	<script src="http://24haowan-cdn.shanyougame.com/public/js/phaser.min.js"></script>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="start_menu">
+		<div class="start_btn"></div>
+		<div class="rank_btn"></div>
+	</div>
+	
+	<div class="pause_div">
+		<div class="text">关注24好玩，每天一款精品小游戏</div>
+		<div class="qrcode"></div>
+		<div class="exit"></div>
+		<div class="goon"></div>
+	</div>
+
+	<div class="mask"></div>
+
+	<div class="pause_btn"></div>
+
+	<div id="game_div"></div>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			/*开始页面模块*/
+			$('#start_menu .start_btn').on('click',function(){
+				game.state.start('play');
+				$('#start_menu').hide();
+				// hiddenLabel();
+			});
+			$('#start_menu .rank_btn').on('click',function(){
+				showRankBox();
+			});
+
+			/*结束页面模块*/
+			$("#over_box .over-btn-replay").on("click", function() {
+				game.state.start("create");
+				game.paused = false;
+				$('#over_box').hide();
+				$('#over_box .over-btn-container').hide();
+			});
+			$("#over_box .over-btn-more").on("click", function() {
+				location.href = "http://24haowan.shanyougame.com/main/subject";
+			});
+			$("#over_box .over-btn-rank").on("click", function() {
+				showRankBox();
+			});
+
+
+
+			/*暂停页面模块*/
+			$('.pause_btn').on('click',function(){
+				game.paused = true;
+				$('.pause_div').show();
+				$('.mask').show();
+			});
+
+			$('.pause_div .exit').on('click',function(){
+				$('.pause_div').hide();
+				$('.mask').hide();
+				game.state.start('play');
+				game.paused = false;
+			});
+
+			$('.pause_div .goon').on('click',function(){
+				game.paused = false;
+				$('.pause_div').hide();
+				$('.mask').hide();
+			});
+		});
+	</script>
+</body>
+</html>
