@@ -1,0 +1,39 @@
+{"frames": [
+
+{
+	"filename": "two_1.png",
+	"frame": {"x":2,"y":2,"w":178,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":178,"h":168},
+	"sourceSize": {"w":219,"h":214},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "two_2.png",
+	"frame": {"x":2,"y":172,"w":200,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":27,"w":200,"h":160},
+	"sourceSize": {"w":219,"h":214},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "two_3.png",
+	"frame": {"x":2,"y":334,"w":208,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":31,"w":208,"h":131},
+	"sourceSize": {"w":219,"h":214},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "two.png",
+	"format": "RGBA8888",
+	"size": {"w":212,"h":467},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a9d2bbb2d91e1b92e1ee817448428b67:9fff66b3a2656c736c41ebcc98f9ae04:6a52834ba323f5d862ec3b23fed374a4$"
+}
+}
