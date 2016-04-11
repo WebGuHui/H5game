@@ -1,0 +1,123 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+.pause_btn {
+	background: url(http://24haowan-cdn.shanyougame.com/BreakSquare/pause.png) no-repeat center center;
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	display: none;
+}
+.pause_div {
+	display: none;
+	z-index: 81;
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	        transform: translateX(-50%) translateY(-50%);
+	background: url(http://24haowan-cdn.shanyougame.com/BreakSquare/pause_menu.png) no-repeat center center;
+	background-size: cover;
+}
+.pause_div .text {
+	position: absolute;
+	font-size: 13px;
+	top: 12px;
+	left: 6px;
+	right: 6px;
+	text-align: center;
+	color: #000;
+	font-family: "miscrosoft yahei";
+}
+.pause_div .qrcode {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	        transform: translateX(-50%) translateY(-50%);
+	background: url(http://24haowan-cdn.shanyougame.com/BreakSquare/qrcode.jpg) no-repeat center center;
+	background-size: cover;
+}
+.pause_div .exit {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 30px;
+	bottom: -20px;
+	background: url(http://24haowan-cdn.shanyougame.com/BreakSquare/exit.png) no-repeat center center;
+	background-size: cover;
+}
+.pause_div .goon {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	right: 30px;
+	bottom: -20px;
+	background: url(http://24haowan-cdn.shanyougame.com/BreakSquare/goon.png) no-repeat center center;
+	background-size: cover;
+}
+
+.mask {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: .8;
+	z-index: 80;
+	display: none;
+}
+#start_menu {
+	display: none;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(http://24haowan-cdn.shanyougame.com/christmas/assets/mobile/bg_start.png) no-repeat center center;
+	background-size: contain;
+}
+
+#start_menu .start_btn {
+	position: absolute;
+	left: 50%;
+	-webkit-transform:translateX(-50%);
+	        transform:translateX(-50%);
+	bottom: 150px;
+	width: 120px;
+	height: 50px;
+	background: url(http://24haowan-cdn.shanyougame.com/BreakSquare/start_game.png) no-repeat center center;
+	background-size: cover;
+}
+#start_menu .rank_btn {
+	position: absolute;
+	left: 50%;
+	-webkit-transform:translateX(-50%);
+	        transform:translateX(-50%);
+	bottom: 80px;
+	width: 120px;
+	height: 50px;
+	background: url(http://24haowan-cdn.shanyougame.com/BreakSquare/rank_btn.png) no-repeat center center;
+	background-size: cover;
+}
+/* CSS For iPad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+	#start_menu {
+		background: url(http://24haowan-cdn.shanyougame.com/christmas/assets/pad/bg_start.png) no-repeat center center;
+		background-size: cover;
+	}
+	#start_menu .start_btn, #start_menu .rank_btn {
+		width: 160px;
+		height: 70px;
+	}
+}

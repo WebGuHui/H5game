@@ -1,0 +1,30 @@
+{"frames": [
+
+{
+	"filename": "crocodile_1.png",
+	"frame": {"x":2,"y":190,"w":143,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":143,"h":160},
+	"sourceSize": {"w":143,"h":160},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "crocodile_2.png",
+	"frame": {"x":2,"y":2,"w":143,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":143,"h":186},
+	"sourceSize": {"w":143,"h":186},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "crocodile.png",
+	"format": "RGBA8888",
+	"size": {"w":147,"h":354},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6f62d1f8c8a349fd61473cedb2aa0fbd:f09c9dbadfe7455bb4d98063be080426:8b19f9937799b883925550506afad24e$"
+}
+}
