@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0">
+	<title>Demo</title>
+	<link rel="stylesheet" href="./dist/main.css">
+	<script type="text/javascript" src="./dist/vue.js"></script>
+</head>
+<body>
+	<!-- 未分享开始游戏界面 -->
+	<div class="start" :style="{display:show}">
+		<div class="start_btn" @click="startGame">制作问题</div>
+	</div>
+	<script type="text/javascript">
+		var start = new Vue({
+			el: '.start',
+			data: {
+				show: 'none'
+			},
+			methods: {
+				startGame: function(){
+					start.show = 'none';
+					question.show = 'block';
+				}
+			}
+		});
+	</script>
+
+	<!-- 已分享开始游戏界面 -->
+	<div class="shareStart" :style="{display:show}">
+		你想试试和{{name}}的匹配程度吗？
+
+		<div class="start_btn" @click="startGame">
+			开始答题
+		</div>
+	</div>
+	<script type="text/javascript">
+		var shareStart = new Vue({
+			el: '.shareStart',
+			data: {
+				show: 'none',
+				name: ''
+			},
+			methods: {
+				startGame: function(){
+					shareStart.show = 'none';
+					question.show = 'block';
+				}
+			}
+		});
+	</script>
+
+	<div class="question" :style="{display:show}">
+		<img src="{{list.imgSrc}}" alt="">
+		<p class="title" >{{list.title.replace('你',name==''?'你':name)}}</p>
+		<ul @click="selectAnswer" class="answerList">
+			<li v-for="(index,item) in list.answer" class="{{index}}">{{item}}</li>
+		</ul>
+
+		<ul class="light">
+			<li v-for="n in 8" class="{{light[n]?'finish':'unfinished'}}"></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		var question = new Vue({
+			el: '.question',
+			data: {
+				show: 'none',
+				list: {},
+				name: '',
+				light: []
+			},
+			methods: {
+				selectAnswer: function(e){
+					console.log(e.target);
+					var el = e.target;
+					answerList.push(el.className);
+					question.light.push(1);
+					if(currentNum<data.length-1) {
+						question.list = data[++currentNum];
+					} else {
+						console.log('答题完毕：' + answerList.join('-'));
+						if(shareAnswerList.length>0) {
+							var num = matching(answerList,shareAnswerList);
+							result.message = '你和' + question.name + '的匹配程度为:' + num;
+							result.show = 'block';
+							question.show = 'none';
+						} else {
+							alert('题目制作完毕,快分享给你的朋友吧');
+						}
+						// reset();
+					}
+				}
+			}
+		});
+		
+	</script>
+
+	<div class="result" :style="{display:show}">
+		{{message}}
+
+		<div class="make" @click="makeQuestion">我也要制作问题</div>
+	</div>
+	<script type="text/javascript">
+		var result = new Vue({
+			el: '.result',
+			data: {
+				show: 'none',
+				message: ''
+			},
+			methods: {
+				makeQuestion: function(){
+					reset();
+					result.show = 'none';
+					start.show = 'block';
+				}
+			}
+		})
+	</script>
+	<script type="text/javascript" src="./dist/main.js"></script>
+</body>
+</html>
